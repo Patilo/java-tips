@@ -1,12 +1,12 @@
 import java.util.Scanner;
 
-public class Main {
+public class switchcase {
 
     public static void main(String[] args) {
     
         Scanner leer = new Scanner(System.in);   // aqui usamos la lib para aceptar o entrar datos por teclado
         
-        System.out.print("Ingrese el número del día: ");   // le pedimos al usuario que ingrese el dia
+        System.out.print("Ingrese el numero del dia: ");   // le pedimos al usuario que ingrese el dia
         int dia = leer.nextInt(); //leemos l dia
         
         String nombreDia = null;
